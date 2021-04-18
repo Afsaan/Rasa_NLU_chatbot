@@ -28,3 +28,17 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: corona faq
+  steps:
+  - intent: corona_intro
+  - action: utter_corona_intro
+  - intent: corona_spread
+  - action: utter_corona_spread
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+  - intent: warm_weather
+  - action: utter_warm_weather
+  - intent: high_risk
+  - action: utter_high_risk
+
